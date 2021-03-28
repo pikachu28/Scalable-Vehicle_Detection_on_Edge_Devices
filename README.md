@@ -18,4 +18,6 @@ make
 sudo make install
 
 brew install kvazaar
+
+brew install ffmpeg
 ```
