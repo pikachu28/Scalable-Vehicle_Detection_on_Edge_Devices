@@ -16,4 +16,6 @@ autoreconf -i
 make 
 
 sudo make install
+
+brew install kvazaar
 ```
