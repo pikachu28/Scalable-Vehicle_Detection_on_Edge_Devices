@@ -21,3 +21,13 @@ brew install kvazaar
 
 brew install ffmpeg
 ```
+
+## Link to reference
+
+https://github.com/ultravideo/kvazaar#using-kvazaar
+
+https://core.ac.uk/download/pdf/250163878.pdf
+
+https://ottverse.com/ffmpeg-convert-avi-mp4-to-yuv-raw-playback-yuv-ffplay/
+
+
