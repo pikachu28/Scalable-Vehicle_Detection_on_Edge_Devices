@@ -20,6 +20,11 @@ sudo make install
 brew install kvazaar
 
 brew install ffmpeg
+
+ffmpeg -i  input_avi.avi -c:v rawvideo -pixel_format yuv420p output_720x480p.yuv
+
+kvazaar --input output_720x480p.yuv --output out.hevc
+
 ```
 
 ## Link to reference
