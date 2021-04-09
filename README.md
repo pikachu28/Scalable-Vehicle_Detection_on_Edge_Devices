@@ -1,4 +1,4 @@
-# iiitd-summer-project
+# Scalable Vehicle_Detection_on_Edge_Devices
 
 ### Compiling Kvazaar on Mac
 
