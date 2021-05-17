@@ -6,7 +6,10 @@
 
 
 ```
+
 brew install automake libtool yasm
+
+git clone --depth=50 https://github.com/ultravideo/kvazaar.git ultravideo/kvazaar
 
 ./autogen.sh
 
@@ -32,10 +35,11 @@ kvazaar --input output_720x480p.yuv --output out.hevc
 
 https://github.com/ultravideo/kvazaar#using-kvazaar
 
+https://travis-ci.org/github/ultravideo/kvazaar/jobs/763898332
+
 https://core.ac.uk/download/pdf/250163878.pdf
 
 https://ottverse.com/ffmpeg-convert-avi-mp4-to-yuv-raw-playback-yuv-ffplay/
 
 https://videocompression.tech/hevc-tiling-modes/
-
 
