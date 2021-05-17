@@ -5,7 +5,8 @@
 #### Run the following commands
 
 
-```brew install automake libtool yasm
+```
+brew install automake libtool yasm
 
 ./autogen.sh
 
