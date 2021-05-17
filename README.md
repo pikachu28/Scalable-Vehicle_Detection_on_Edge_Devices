@@ -35,4 +35,6 @@ https://core.ac.uk/download/pdf/250163878.pdf
 
 https://ottverse.com/ffmpeg-convert-avi-mp4-to-yuv-raw-playback-yuv-ffplay/
 
+https://videocompression.tech/hevc-tiling-modes/
+
 
