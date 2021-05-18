@@ -25,9 +25,9 @@ brew install kvazaar
 
 brew install ffmpeg
 
-ffmpeg -i  video/input_1080x608p.avi -c:v rawvideo -pixel_format yuv420p output_720x480p.yuv
+ffmpeg -i  video/input_1280x720p.avi -c:v rawvideo -pixel_format yuv420p output_1280x720p.yuv
 
-kvazaar -i output_720x480p.yuv --input-res 720x480 --tiles 2x2  -o output1.hevc
+kvazaar -i output_1280x720p.yuv --input-res 1280x720 --tiles 2x2  -o output1.hevc
 
 ```
 
