@@ -47,6 +47,16 @@ MP4Box -rem 3 -rem 4 video_tiled.mp4 -out test_tile_lost_keepOne.mp4
 
 To play the output .mp4 video install [GPAC](https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/)
 
+### File Size:
+
+Before Tile Removing [video_tiled.mp4]: 130.3MB
+After 1 Tile Removing [test_tile_lost.mp4]: 86.1MB
+After 2 Tile Removing [test_tile_lost_keepTwo.mp4]: 73.2MB
+
+### Drive link to the videos:
+
+https://drive.google.com/drive/folders/1qwxfIZW2QNR2YezJi0GpKXOACnljgkJW?usp=sharing
+
 ## Link to reference
 
 https://github.com/ultravideo/kvazaar#using-kvazaar
