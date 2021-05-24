@@ -50,7 +50,9 @@ To play the output .mp4 video install [GPAC](https://gpac.wp.imt.fr/downloads/gp
 ### File Size:
 
 Before Tile Removing [video_tiled.mp4]: 130.3MB
+
 After 1 Tile Removing [test_tile_lost.mp4]: 86.1MB
+
 After 2 Tile Removing [test_tile_lost_keepTwo.mp4]: 73.2MB
 
 ### Drive link to the videos:
