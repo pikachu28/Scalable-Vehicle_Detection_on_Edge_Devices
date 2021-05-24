@@ -1,6 +1,6 @@
 # Scalable Vehicle_Detection_on_Edge_Devices
 
-### Compiling Kvazaar on Mac
+### Compiling Kvazaar on Mac and videoencoding
 
 #### Run the following commands
 
@@ -31,7 +31,7 @@ kvazaar -i output_1280x720p.yuv --input-res 1280x720 --tiles 2x2  -o output1.hev
 
 ```
 
-### Tile splitting with MP4Box
+### Tile splitting and removing with MP4Box
 
 #### Run the following commands
 
@@ -41,7 +41,11 @@ MP4Box -add output1.hevc:split_tiles -new video_tiled.mp4
 
 MP4Box -info video_tiled.mp4
 
+MP4Box -rem 3 -rem 4 video_tiled.mp4 -out test_tile_lost_keepOne.mp4
+
 ```
+
+To play the output .mp4 video install [GPAC](https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/)
 
 ## Link to reference
 
@@ -54,4 +58,6 @@ https://core.ac.uk/download/pdf/250163878.pdf
 https://ottverse.com/ffmpeg-convert-avi-mp4-to-yuv-raw-playback-yuv-ffplay/
 
 https://videocompression.tech/hevc-tiling-modes/
+
+https://github.com/gpac/gpac/wiki/HEVC-Tile-based-adaptation-guide
 
