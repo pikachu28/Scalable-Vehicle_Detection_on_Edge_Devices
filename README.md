@@ -59,6 +59,24 @@ After 2 Tile Removing [test_tile_lost_keepTwo.mp4]: 73.2MB
 
 https://drive.google.com/drive/folders/1qwxfIZW2QNR2YezJi0GpKXOACnljgkJW?usp=sharing
 
+
+### Tiny Yolo and splitting into 1 sec segment
+
+https://github.com/kcosta42/Tensorflow-YOLOv3
+
+```
+python3 convert_weights.py --tiny 
+
+python3 detect.py --tiny video 0.5 0.5 data/videos/output.mp4
+
+ffmpeg -i video_output.mp4 -c copy -segment_time 1 -f segment seg%d.mp4
+
+
+```
+
+
+
+
 ## Link to reference
 
 https://github.com/ultravideo/kvazaar#using-kvazaar
